@@ -23,8 +23,7 @@ other files :
   - requirements.txt (run : python3 -m pip install -r requirements.txt to install all required libraries)
  
 I used resnet18 from torchvision.models as teacher model. 
-link of dataset "https://s3.amazonaws.com/fast-ai-imageclas/imagewoof-160.tgz" Used 5 layered CNN as student model.
-
+link of dataset "https://s3.amazonaws.com/fast-ai-imageclas/imagewoof-160.tgz" 
 
 The accuracy of the algorithm is 60% for 75 : 25 supervised - unsupervised learning ratio.
 
